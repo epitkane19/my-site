@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",
-		"preview": "npm run build && wrangler pages dev",
+		"preview": "vite preview",
 		"deploy": "npm run build && wrangler pages deploy",
 		"cf-typegen": "wrangler types"
 	},
